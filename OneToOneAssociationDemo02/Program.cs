@@ -8,6 +8,7 @@ Console.WriteLine($"Car: {car.Manufacturer} {car.Model}, Year: {car.YearOfManufa
 
 Console.WriteLine($"Car Age: {car.GetCarAge()}");
 
+
 if (car.IsEligibleForRegistrationRenewal())
 {
     Console.WriteLine("The car is eligible for registration renewal.");
